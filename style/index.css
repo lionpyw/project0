@@ -1,0 +1,146 @@
+body {
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(32,33,36);
+    height: 100%;
+    min-width: 400px;
+    overflow: hidden;
+    margin: 0px;
+    padding: 0px;
+}
+#main{
+    display: flex;
+    flex-direction: column;
+    height: 100%vh;
+    width: 100vw;
+}
+#header{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 6px;
+    height: 60px;
+    flex-shrink: 0;
+    box-sizing: border-box;
+}
+
+a#nav_tab:hover{
+    color: black;
+    text-decoration: underline;
+}
+
+#nav_tab{
+    font-weight: normal;
+    font-family: arial, sans-serif;
+    color: rgba(0, 0, 0, 0.87);
+    white-space: nowrap;
+    font-size: 13px;
+    text-decoration: none;
+    padding: 8px;
+    outline-offset: 2px;
+}
+
+#image_div{
+    display: flex;
+    flex-direction: column;
+    max-height: 290px;
+    min-height: 92px;
+    position: relative;
+    height: calc(100%-560px);
+    flex-shrink: 0;
+    align-items: center;
+    box-sizing: border-box;
+}
+#image_contain{
+    max-height: 92px;
+    position: relative;
+    height: 100%;
+    margin-top: auto;
+}
+
+#image{
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: contain;
+    object-position: center bottom;
+    width: auto;
+}
+
+#image-outer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 92px;
+    flex-shrink: 0;
+    box-sizing: border-box;
+}
+
+#image_div_span{
+    max-height: 92px;
+    position: relative;
+    height: 100%;
+    margin-top: auto;
+}
+
+#image_span{
+    color: rgb(66, 133, 244);
+    font: 16px / 16px roboto-regular, arial, sans-serif;
+    position: absolute;
+    left: 215px;
+    bottom: 0px;
+    white-space: nowrap;
+}
+
+#form_contain{
+    padding: 20px;
+    max-height: 160px;
+    flex-shrink: 0;
+    box-sizing: border-box;
+}
+
+#formbox{
+    margin: 18px auto;
+    padding-top: 6px;
+    max-width: 584px;
+    position: relative;
+}
+#search_field{
+    background: rgb(255, 255, 255);
+    width: 584px;
+    border: 1px solid rgb(223, 225, 229);
+    display: flex;
+    box-shadow: none;
+    border-radius: 24px;
+    margin: 0px auto;
+    max-height: 46px;
+    padding: 6px 8px 8px 14px;
+    min-height:28px;
+    font-size: 16px;
+    flex: 1 1 100%;
+    color: rgba(0, 0, 0, 0.87);
+}
+
+#button_div{
+    height: 70px;
+    padding-top: 18px;
+    display: flex;
+    justify-content: center;
+}
+
+#button{
+    background-color: rgb(248, 249, 250);
+    border: 1px solid rgb(248, 249, 250);
+    border-radius: 4px;
+    color: rgb(60, 64, 67);
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0px 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}

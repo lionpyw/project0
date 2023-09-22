@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Advanced Search</title>
+    <link rel="stylesheet" href="style/index.css">
+    <link rel="stylesheet" href="style/advanc.css">
+</head>
+<body>
+    <header> <a href="index.html">
+        <span class="spand" aria-hidden="true"></span> </a> 
+        <a style="justify-content:flex-end;" href="index.html"> Google Search</a>
+     </header>
+    <div class="bar">
+        <label style="margin-left:10px;">Advanced Search</label>
+    </div>
+    <div id="line"></div>
+
+    <div class="searchform">
+        <form id="search" action="https://google.com/search" method="GET" name="f">
+            <div style="clear:both; font-size:13px; margin-bottom:90px;">
+                <div class="searchdiv">
+                    <div class="lota">
+                        <span>
+                    Find pages with...
+                        </span>
+                    </div>
+                </div>
+            
+
+                <div style="clear:both">       
+                    <div id="labelout">
+                        <div id="labelin">
+                        <label for="">all these words</label>
+                        </div>
+                    </div>
+                    <div id="fieldout">
+                        <div id="fieldin">
+                            <input class="jfk-textinput" type="text" autofocus="autofocus" name="as_q" value="">
+                        </div>
+                    </div>
+                </div>
+                
+            <div style="clear:both">   
+                <div id="labelout">
+                    <div id="labelin">
+                        <label for=""> this exact word or phrase:</label>
+                    </div>
+                </div>
+
+                <div id="fieldout">
+                    <div id="fieldin">
+                        <input type="text" class="jfk-textinput" value="" name="as_epq">
+                    </div>
+                </div>
+            </div>
+
+
+                <div style="clear:both;">
+                    <div id="labelout">
+                        <div id="labelin">
+                            <label for=""> any of these words:</label>
+                        </div>
+                    </div>
+                    <div id="fieldout">
+                        <div id="fieldin">
+                            <input type="text" class="jfk-textinput" value="" name="as_oq">
+                        </div>
+                    </div>
+                </div>  
+                
+
+                <div style="clear:both;">
+                    <div id="labelout">
+                        <div id="labelin">
+                            <label for=""> none of these words:</label>
+                        </div>
+                    </div>
+                    <div id="fieldout">
+                        <div id="fieldin">
+                            <input type="text" class="jfk-textinput" value="" name="as_eq">
+                        </div>
+                    </div>     
+                </div>       
+
+                <div style="clear:both;">        
+                    <div id="labelout">
+                        <div id="labelin">
+                            <label for=""></label>
+                        </div>
+                    </div>
+                    <div id="fieldout">
+                        <div id="fieldin" style="text-align: right;">
+                            <input  name="tbs" type="hidden" value="">
+                            <input 
+                            id="button" 
+                            style="user-select:none;height:30px;max-width:120px;" 
+                            value="Advanced Search" 
+                            type="submit">
+                        </div>
+                    </div>     
+                </div>               
+
+            </div>
+        </form>
+    </div>
+
+</body>
+</html>

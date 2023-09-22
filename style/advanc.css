@@ -1,0 +1,124 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    border: 0px none;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    vertical-align: baseline;
+    text-decoration: none;
+    min-height: 100%;
+    position: relative;
+}
+header{
+    padding: 8px;
+    box-sizing: border-box;
+position: relative;
+width: 100%;
+display: flex;
+justify-content: space-between;
+min-width: 160px;
+position: relative;
+transition: box-shadow 250ms ease 0s;
+text-decoration: none;
+}
+.spand{
+    content: url("https://www.gstatic.com/images/branding/googlelogo/svg/googlelogo_clr_74x24px.svg");
+    display: inline-block;
+    height: 24px;
+    width: 74px;
+}
+.bar{
+    color: rgb(15, 15, 15);
+    font-size: 20px;
+    margin: 25px 35px;
+}
+#line{
+    border-color: rgb(60, 64, 67);
+    border-bottom:1px solid rgb(235, 235, 235);
+    border-bottom-color: rgb(235, 235, 235);
+}
+.searchform{
+    max-width: 1140px;
+    min-width: 200px;
+    width: 96%;
+    margin: 40px 2% 0px 45px;
+}
+.searchdiv{
+    float:none;
+display: inline-block;
+min-width: 167px;
+width: 16%;
+font-size: 16px;
+min-height: 42px;
+font-weight: 500;
+}
+.lota{
+    height: 30px;
+display: table-cell;
+vertical-align: middle;
+}
+
+.jfk-textinput{
+    border-radius: 1px;
+border-color: rgb(192, 192, 192) rgb(217, 217, 217) rgb(217, 217, 217);
+border-style: solid;
+border-width: 1px;
+border-image: none 100% / 1 / 0 stretch;
+font-size: 13px;
+height: 25px;
+padding: 1px 8px;
+}
+
+input.jfk-textinput{
+border: 1px solid rgb(11, 11, 12);
+color: rgb(8, 8, 8);
+}
+
+#labelout{
+    float: left;
+    min-width: 167px;
+    width: 16%;
+    height: 42px;
+    color: rgb(34, 34, 34);
+    font-size: 13px;
+    line-height: 16px;
+    vertical-align: middle;
+}
+#labelin{
+    height: 30px;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#fieldout{
+    float: left;
+    min-width: 167px;
+    min-height: 41px;
+    vertical-align: middle;
+    width: 50%;
+}
+#fieldin{
+    padding-right: 16px;
+}
+input{
+    width: 100%;
+text-align: left;
+}
+
+#button{
+    float: right;
+    margin: 10px 0px;
+    padding: 0px 12px;
+    box-shadow: none;
+    background-color: rgb(77, 144, 254);
+    background-image: -moz-linear-gradient(rgb(77, 144, 254), rgb(71, 135, 237));
+    border: 1px solid rgb(48, 121, 237);
+    color: rgb(255, 255, 255);
+    border-radius: 2px;
+    cursor: default;
+    font-size: 11px;
+    font-weight: bold;
+    text-align: center;
+    white-space: nowrap;
+}
